@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1b6a76cd-e370-4082-9308-b0a90d0961af" name="Default" comment="Form İşlemleri&#10;*Veritabanı bağlantı&#10;*Veri Kaydetme&#10;*Veri Çekme">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../form-PDO/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../form-PDO/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../form-PDO/islem.php" afterPath="$PROJECT_DIR$/../form-PDO/islem.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -159,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508446737646</updated>
-      <workItem from="1508446745588" duration="6552000" />
+      <workItem from="1508446745588" duration="7090000" />
     </task>
     <task id="LOCAL-00001" summary="Form İşlemleri&#10;*Veritabanı bağlantı&#10;*Veri Kaydetme&#10;*Veri Çekme">
       <created>1508486218897</created>
@@ -200,7 +199,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6552000" />
+    <option name="totallyTimeSpent" value="7090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="839" extended-state="6" />
