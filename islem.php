@@ -33,6 +33,7 @@ if(isset($_POST['kaydet'])){
     if($insert){
         echo "Kayıt Başarılı";
         echo "<br>";
+        echo "<hr>";
         echo "<a href='form.php'>Forma Dön</a>";
         //Yönlendirme Fonksiyonu header()
 
