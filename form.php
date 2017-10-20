@@ -31,6 +31,7 @@ include_once 'baglan.php';
     <input type="submit" name="kaydet" value="Kaydet">
 </form>
 <br>
+
 <?php
 if($_GET['durum']=="true"){
     echo "Kayıt işlemi başarılı";

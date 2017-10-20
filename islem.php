@@ -11,6 +11,7 @@ include_once 'baglan.php';
 
 if(isset($_POST['kaydet'])){
 
+
     $kaydet = $db->prepare("INSERT INTO banaozel SET  
     ad=:ad,
     soyad=:soyad,
