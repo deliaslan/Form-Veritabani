@@ -2,10 +2,10 @@
 /**
  * Created by PhpStorm.
  * User: deliaslan
- * Date: 20.10.2017
- * Time: 00:00
+ * Date: 21.10.2017
+ * Time: 17:36
  * Project Name: Form-PDO
- * File Name: form.php
+ * File Name: form-veri-al.php
  */
 include_once 'baglan.php';
 ?>
@@ -13,21 +13,27 @@ include_once 'baglan.php';
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Veritabanından bilgileri çekme/ Düzenleme yani edit amaçlı kullanım</title>
 </head>
 <body>
 <h1>Veritabanına PDO İle Kayıt İşlemleri</h1>
-
+<?php
+$id=2;
+//id'ye ya da belirtilen alan adına göre veri seçme işlemi
+$sorgu= $db->prepare("SELECT * FROM banaozel where id=:id");
+$sorgu->execute(array('id'=> $id));
+$veriAl=$sorgu->fetch(PDO::FETCH_ASSOC);
+?>
 <form action="islem.php" method="post">
-    Adınız: <input type="text" name="ad" placeholder="Adınızı Yazınız">
+    Adınız: <input type="text" name="ad" value="<?php echo $veriAl['ad']; ?>" placeholder="Adınızı Yazınız">
     <br>
-    Soyadınız: <input type="text" name="soyad" placeholder="Soyadınızı Yazınız">
+    Soyadınız: <input type="text" name="soyad" value="<?php echo $veriAl['soyad']; ?>" placeholder="Soyadınızı Yazınız">
     <br>
-    Yaşınız: <input type="number" name="yas" placeholder="Yaşınızı Giriniz">
+    Yaşınız: <input type="number" name="yas" value="<?php echo $veriAl['yas']; ?>" placeholder="Yaşınızı Giriniz">
     <br>
-    Cinsiyetiniz: <input type="text" name="cinsiyet" placeholder="Cinsiyetinizi Giriniz">
+    Cinsiyetiniz: <input type="text" name="cinsiyet" value="<?php echo $veriAl['cinsiyet']; ?>" placeholder="Cinsiyetinizi Giriniz">
     <br>
-    Medeni Durumunuz: <input type="text" name="medeni_durum" placeholder="Medeni Durumunuzu Giriniz">
+    Medeni Durumunuz: <input type="text" name="medeni_durum" value="<?php echo $veriAl['medeni_durum']; ?>" placeholder="Medeni Durumunuzu Giriniz">
     <br>
     <input type="submit" name="kaydet" value="Kaydet">
 </form>
@@ -69,3 +75,4 @@ while($veriAl=$sorgu->fetch(PDO::FETCH_ASSOC)){
 ?>
 </body>
 </html>
+
