@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b6a76cd-e370-4082-9308-b0a90d0961af" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../form-PDO/form-veri-sil.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../form-PDO/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../form-PDO/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../form-PDO/form-veri-al.php" afterPath="$PROJECT_DIR$/../form-PDO/form-veri-al.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../form-PDO/form.php" afterPath="$PROJECT_DIR$/../form-PDO/form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../form-PDO/islem.php" afterPath="$PROJECT_DIR$/../form-PDO/islem.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../form-PDO/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="302">
+              <caret line="68" column="2" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="68" selection-end-column="2" />
               <folding>
                 <marker date="1508599374572" expanded="true" signature="1118:1140" ph="SELECT * FRO... banaozel" />
                 <marker date="1508599374572" expanded="true" signature="1359:1381" ph="SELECT * FRO... banaozel" />
@@ -32,10 +31,10 @@
       <file leaf-file-name="form-veri-al.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../form-PDO/form-veri-al.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            <state relative-caret-position="257">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
-                <element signature="e#1971#2158#0#PHP" expanded="true" />
+                <element signature="e#1723#1906#0#PHP" expanded="true" />
                 <marker date="1508599225044" expanded="true" signature="490:525" ph="SELECT * FRO... banaozel" />
                 <marker date="1508599225044" expanded="true" signature="1748:1770" ph="SELECT * FRO... banaozel" />
                 <marker date="1508599225044" expanded="true" signature="1996:2018" ph="SELECT * FRO... banaozel" />
@@ -44,16 +43,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="islem.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="form-veri-sil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../form-PDO/form-veri-sil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-328">
+              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1508620269767" expanded="true" signature="449:484" ph="SELECT * FRO... banaozel" />
+                <marker date="1508620269767" expanded="true" signature="1985:2007" ph="SELECT * FRO... banaozel" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="islem.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../form-PDO/islem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="287">
+              <caret line="99" column="48" lean-forward="false" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
               <folding>
-                <marker date="1508599056025" expanded="true" signature="229:253" ph="INSERT INTO banaozel... " />
-                <marker date="1508599056025" expanded="true" signature="229:354" ph="INSERT INTO banaozel... " />
-                <marker date="1508599056025" expanded="true" signature="1183:1317" ph="UPDATE banao... " />
-                <marker date="1508599056025" expanded="true" signature="1183:1319" ph="UPDATE banao... " />
+                <marker date="1508620321674" expanded="true" signature="229:253" ph="INSERT INTO banaozel... " />
+                <marker date="1508620321674" expanded="true" signature="229:354" ph="INSERT INTO banaozel... " />
+                <marker date="1508620321674" expanded="true" signature="1183:1317" ph="UPDATE banao... " />
+                <marker date="1508620321674" expanded="true" signature="1183:1319" ph="UPDATE banao... " />
+                <marker date="1508620321674" expanded="true" signature="1934:1967" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -89,9 +103,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../form-PDO/baglan.php" />
-        <option value="$PROJECT_DIR$/../form-PDO/islem.php" />
         <option value="$PROJECT_DIR$/../form-PDO/form-veri-al.php" />
         <option value="$PROJECT_DIR$/../form-PDO/form.php" />
+        <option value="$PROJECT_DIR$/../form-PDO/form-veri-sil.php" />
+        <option value="$PROJECT_DIR$/../form-PDO/islem.php" />
       </list>
     </option>
   </component>
@@ -157,23 +172,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.form-veri-al.php">
+  <component name="RunManager" selected="JavaScript Debug.form-veri-sil.php">
     <configuration name="baglan.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Form-PDO/baglan.php" />
     <configuration name="form-veri-al.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Form-PDO/form-veri-al.php" />
+    <configuration name="form-veri-sil.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Form-PDO/form-veri-sil.php" />
     <configuration name="form.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Form-PDO/form.php" />
     <configuration name="islem.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Form-PDO/islem.php" />
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.form.php" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.baglan.php" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.islem.php" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.form-veri-al.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.form-veri-sil.php" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.form-veri-al.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.form.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.islem.php" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.baglan.php" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.form-veri-sil.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.form-veri-al.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.form.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.islem.php" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.baglan.php" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +208,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508446737646</updated>
-      <workItem from="1508446745588" duration="11175000" />
+      <workItem from="1508446745588" duration="13631000" />
     </task>
     <task id="LOCAL-00001" summary="Form İşlemleri&#10;*Veritabanı bağlantı&#10;*Veri Kaydetme&#10;*Veri Çekme">
       <created>1508486218897</created>
@@ -241,11 +259,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508597426449</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="form-veri-al.php ile verileri düzenlemek için çekme işlemi&#10;islem.php verileri güncelleme işlemi">
+      <created>1508599411828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1508599411828</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11175000" />
+    <option name="totallyTimeSpent" value="13631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="839" extended-state="6" />
@@ -280,7 +305,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Form İşlemleri&#10;*Veritabanı bağlantı&#10;*Veri Kaydetme&#10;*Veri Çekme" />
     <MESSAGE value="form-veri-al.php ile verileri düzenlemek için çekme işlemi" />
-    <option name="LAST_COMMIT_MESSAGE" value="form-veri-al.php ile verileri düzenlemek için çekme işlemi" />
+    <MESSAGE value="form-veri-al.php ile verileri düzenlemek için çekme işlemi&#10;islem.php verileri güncelleme işlemi" />
+    <option name="LAST_COMMIT_MESSAGE" value="form-veri-al.php ile verileri düzenlemek için çekme işlemi&#10;islem.php verileri güncelleme işlemi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -295,25 +321,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../form-PDO/islem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <marker date="1508599056025" expanded="true" signature="229:253" ph="INSERT INTO banaozel... " />
-            <marker date="1508599056025" expanded="true" signature="229:354" ph="INSERT INTO banaozel... " />
-            <marker date="1508599056025" expanded="true" signature="1183:1317" ph="UPDATE banao... " />
-            <marker date="1508599056025" expanded="true" signature="1183:1319" ph="UPDATE banao... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../form-PDO/form-veri-al.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="257">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
-            <element signature="e#1971#2158#0#PHP" expanded="true" />
+            <element signature="e#1723#1906#0#PHP" expanded="true" />
             <marker date="1508599225044" expanded="true" signature="490:525" ph="SELECT * FRO... banaozel" />
             <marker date="1508599225044" expanded="true" signature="1748:1770" ph="SELECT * FRO... banaozel" />
             <marker date="1508599225044" expanded="true" signature="1996:2018" ph="SELECT * FRO... banaozel" />
@@ -323,11 +336,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../form-PDO/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="302">
+          <caret line="68" column="2" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="68" selection-end-column="2" />
           <folding>
             <marker date="1508599374572" expanded="true" signature="1118:1140" ph="SELECT * FRO... banaozel" />
             <marker date="1508599374572" expanded="true" signature="1359:1381" ph="SELECT * FRO... banaozel" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../form-PDO/form-veri-sil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1508620269767" expanded="true" signature="449:484" ph="SELECT * FRO... banaozel" />
+            <marker date="1508620269767" expanded="true" signature="1985:2007" ph="SELECT * FRO... banaozel" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../form-PDO/islem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="99" column="48" lean-forward="false" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
+          <folding>
+            <marker date="1508620321674" expanded="true" signature="229:253" ph="INSERT INTO banaozel... " />
+            <marker date="1508620321674" expanded="true" signature="229:354" ph="INSERT INTO banaozel... " />
+            <marker date="1508620321674" expanded="true" signature="1183:1317" ph="UPDATE banao... " />
+            <marker date="1508620321674" expanded="true" signature="1183:1319" ph="UPDATE banao... " />
+            <marker date="1508620321674" expanded="true" signature="1934:1967" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>

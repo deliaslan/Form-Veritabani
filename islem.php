@@ -83,4 +83,22 @@ if(isset($_POST['guncelle'])){
         header("Location:form-veri-al.php?durum=false");//get ile geribildirim alabiliyoruz.
     }
 }
+
+if ($_GET['silme']=="true"){
+    $sil=$db->prepare("DELETE FROM banaozel WHERE id=:id");
+    $kontrol=$sil->execute(array('id'=>$_GET['id']));
+
+    if($kontrol){
+
+        //Yönlendirme Fonksiyonu header()
+
+        //header("Location:form.php");
+        header("Location:form-veri-sil.php?silme=true"); //get ile geribildirim alabiliyoruz.
+    }
+    else{
+
+        header("Location:form-veri-sil.php?silme=false");//get ile geribildirim alabiliyoruz.
+    }
+
+}
 ?>
