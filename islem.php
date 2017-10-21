@@ -47,4 +47,40 @@ if(isset($_POST['kaydet'])){
         header("Location:form.php?durum=false");//get ile geribildirim alabiliyoruz.
     }
 }
+
+
+if(isset($_POST['guncelle'])){
+
+
+    $guncelle = $db->prepare("UPDATE banaozel SET  
+    ad=:ad,
+    soyad=:soyad,
+    yas=:yas,
+    cinsiyet=:cinsiyet,
+    medeni_durum=:medeni_durum
+    WHERE id={$_POST['id']}
+    ");
+
+    $update =$guncelle->execute(array(
+
+        'ad'=>$_POST['ad'],
+        'soyad'=>$_POST['soyad'],
+        'yas'=>$_POST['yas'],
+        'cinsiyet'=>$_POST['cinsiyet'],
+        'medeni_durum'=>$_POST['medeni_durum']
+
+    ));
+
+    if($update){
+
+        //Yönlendirme Fonksiyonu header()
+
+        //header("Location:form.php");
+        header("Location:form-veri-al.php?durum=true"); //get ile geribildirim alabiliyoruz.
+    }
+    else{
+
+        header("Location:form-veri-al.php?durum=false");//get ile geribildirim alabiliyoruz.
+    }
+}
 ?>

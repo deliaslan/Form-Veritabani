@@ -13,7 +13,7 @@ include_once 'baglan.php';
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Form Veri kayıt</title>
 </head>
 <body>
 <h1>Veritabanına PDO İle Kayıt İşlemleri</h1>

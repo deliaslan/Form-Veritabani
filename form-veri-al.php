@@ -16,9 +16,9 @@ include_once 'baglan.php';
     <title>Veritabanından bilgileri çekme/ Düzenleme yani edit amaçlı kullanım</title>
 </head>
 <body>
-<h1>Veritabanına PDO İle Kayıt İşlemleri</h1>
+<h1>Veritabanına PDO İle Güncelleme İşlemi</h1>
 <?php
-$id=2;
+$id=5;
 //id'ye ya da belirtilen alan adına göre veri seçme işlemi
 $sorgu= $db->prepare("SELECT * FROM banaozel where id=:id");
 $sorgu->execute(array('id'=> $id));
@@ -35,21 +35,23 @@ $veriAl=$sorgu->fetch(PDO::FETCH_ASSOC);
     <br>
     Medeni Durumunuz: <input type="text" name="medeni_durum" value="<?php echo $veriAl['medeni_durum']; ?>" placeholder="Medeni Durumunuzu Giriniz">
     <br>
-    <input type="submit" name="kaydet" value="Kaydet">
+    <input type="hidden" name="id" value="<?php echo $id; ?>">
+    <input type="submit" name="guncelle" value="Güncelle">
 </form>
 <br>
 
 <?php
+//get ile işlemin güncellenip güncellenmediğinin anlaşımlasını sağlama
 if($_GET['durum']=="true"){
-    echo "Kayıt işlemi başarılı";
+    echo "Güncelleme işlemi başarılı";
 }
 elseif($_GET['durum']=="false"){
-    echo "Kayıt Gerçekleştirilemedi";
+    echo "Güncelleme Gerçekleştirilemedi";
 }
 ?>
 
 <!--SELECT İŞLEMİ PDO çoğul -->
-<?php
+<?php /*
 $sorgu= $db->prepare("SELECT * FROM banaozel");
 $sorgu->execute();
 while($veriAl=$sorgu->fetch(PDO::FETCH_ASSOC)){
@@ -59,10 +61,11 @@ while($veriAl=$sorgu->fetch(PDO::FETCH_ASSOC)){
 }
 
 
-?>
+*/ ?>
 
 <!--SELECT İŞLEMİ PDO istenilen alanların seçimi -->
-<?php
+
+<?php /*
 $sorgu= $db->prepare("SELECT * FROM banaozel");
 $sorgu->execute();
 while($veriAl=$sorgu->fetch(PDO::FETCH_ASSOC)){
@@ -72,7 +75,8 @@ while($veriAl=$sorgu->fetch(PDO::FETCH_ASSOC)){
 }
 
 
-?>
+*/ ?>
+
 </body>
 </html>
 
